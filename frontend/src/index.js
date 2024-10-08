@@ -4,7 +4,7 @@ import App from './App';
 import { ApolloProvider, InMemoryCache, ApolloClient } from '@apollo/client';
 
 const client = new ApolloClient({
-  uri: 'http://localhost:5000/graphql',
+  uri: 'https://graphql-backend-eoym.onrender.com/graphql',
   cache: new InMemoryCache(),
 });
 
